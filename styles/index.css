@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(236, 237, 239);
+    max-width: fit-content;
+ }
+
+ // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.italic {
+  font-family: "Newsreader", system-ui;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: italic;
+}
+
+ .logo {
+    color: #426B1F;
+    text-align: center;
+    font-family: font-family: "Newsreader", serif;
+    font-size: 32px; 
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  
+ }
+.title {
+    text-align: center;
+    font-family: font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.button {
+    background-color: #426B1F; 
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: semi-bold;
+    font-family: inter;
+}

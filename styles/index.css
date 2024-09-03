@@ -1,41 +1,61 @@
-body {
-    background-color: rgb(236, 237, 239);
-    max-width: fit-content;
- }
-
- // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 800
-
-.italic {
-  font-family: "Newsreader", system-ui;
-  font-optical-sizing: auto;
-  font-weight: ;
-  font-style: italic;
-}
-
  .logo {
-    color: #426B1F;
-    text-align: center;
-    font-family: font-family: "Newsreader", serif;
-    font-size: 32px; 
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
-  
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    margin-top: 37px;  
+    margin-left: 80px;
  }
-.title {
-    text-align: center;
-    font-family: font-family: "Newsreader", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
+.logo-dot {
+    color: #A3DC00;
+ }
 
-.button {
-    background-color: #426B1F; 
-    color: white;
-    text-align: center;
+ section {
+    display: inline-block;
+ }
+
+ .title {
+    width: 495px;
+    max-width: 100%;
+    margin-top: 203px;
+    margin-left: 200px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    letter-spacing: 0,02;
+    color: #1B0A42;
+ }
+
+ .main-text {
+    max-width: 583px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
-    font-weight: semi-bold;
-    font-family: inter;
+    line-height: 32px;
+    letter-spacing: 0,02em;
+    color: #9A9A9A;
+}
+.button {
+    width: 152px;
+    height: 64px;
+    margin-top: 60px;
+    margin-left: 200px;
+    border: none;
+    background-color: #A3DC00;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0,02em;
+    color: #FFFFFF;
+    
 }

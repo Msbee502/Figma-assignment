@@ -9,6 +9,7 @@
  }
 .logo-dot {
     color: #A3DC00;
+    
  }
 
  section {
@@ -24,6 +25,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
+    line-height: 72px;
     letter-spacing: 0,02;
     color: #1B0A42;
  }

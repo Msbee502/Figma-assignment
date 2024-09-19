@@ -46,7 +46,9 @@
 .button:hover{
    background-color: blue;
    color: white;
+   transition: all 1s ease-in-out;
  }
+
 .button {
     width: 152px;
     height: 64px;
@@ -63,4 +65,16 @@
     text-align: center;
     letter-spacing: 0,02em;
     color: #FFFFFF;
+    cursor:col-resize;
 }
+img {
+animation: imgZoom 3.5s ease infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+   }
+
+   @keyframes imgZoom {
+      0% {transform: scale(1) rotate(0deg);}
+      50% {transform: scale(1.1) rotate(15deg);}
+      100% {transform: scale(1) rotate(0deg);}
+   }

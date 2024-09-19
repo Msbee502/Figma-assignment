@@ -68,13 +68,17 @@
     cursor:col-resize;
 }
 img {
-animation: imgZoom 3.5s ease infinite;
-    animation-direction: reverse;
+animation: imgZoom 4.5s ease infinite;
+    animation-direction:alternate-reverse;
     animation-fill-mode: none;
    }
 
    @keyframes imgZoom {
       0% {transform: scale(1) rotate(0deg);}
-      50% {transform: scale(1.1) rotate(15deg);}
-      100% {transform: scale(1) rotate(0deg);}
+      50% {transform: scale(1.2) rotate(-25deg);}
+      100% {transform: scale(1) rotate(25deg);}
+   
    }
+   img:hover {
+      animation-play-state: paused;
+  }

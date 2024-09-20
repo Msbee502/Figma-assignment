@@ -65,7 +65,7 @@
     text-align: center;
     letter-spacing: 0,02em;
     color: #FFFFFF;
-    cursor:col-resize;
+    cursor: pointer;
 }
 img {
 animation: imgZoom 4.5s ease infinite;
